@@ -1,5 +1,5 @@
 
-const numbRows = 11;
+const numbRows = 10;
 const numbMin = 30;
 
 var cycle = [];
