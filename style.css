@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+.button{
+    position: absolute;
+    top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 75px;
+    padding-top: 11px;
+
+    z-index: 999;
+    color: #ffffff;
+}
+
+.tableOfMatches {
+    visibility: hidden;
+}
+
+th{
+    height:40px;
+    background: #f55552;
+    font-weight: bold;
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
+td{
+    text-align: center;
+    background-color: rgb(228,208,208, 0.5);
+    color: #ee5350;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-radius:6px;
+    overflow:hidden;
+
+    position: relative;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 30%;
+    z-index: 1000;
+}
